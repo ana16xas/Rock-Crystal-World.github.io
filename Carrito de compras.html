@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carrito de compras</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <body background="1.jpg">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="indexx.html"><img src="Logo.png"width="300"height="90"/></a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="Index.html">Inicio</a></li>
+								<li><a href="Tienda.html">Tienda</a></li>
+								<li><a href="single.html">Informacion</a></li>
+								<li><a href="Contactos.html">Contactos</a></li>
+
+							</ul>
+	</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="Index.html">
+											<h3>Inicio</h3>
+											<p>Conoce de todo un poco</p>
+										</a>
+									</li>
+									<li>
+										<a href="Tienda.html">
+											<h3>Tienda</h3>
+											<p>Conoce nuestros Productos</p>
+										</a>
+									</li>
+									<li>
+										<a href="Single.html">
+											<h3>Informacion</h3>
+											<p>Referente a tu signo, Propositos Y Significados</p>
+										</a>
+									</li>
+									<li>
+										<a href="Contacto.html">
+											<h3>Contacto</h3>
+											<p>Buscanos</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Iniciar sesion</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+	<div class="container">
+		<h1>Carrito de compras</h1>
+		<table class="table table-striped">
+			
+		</table>
+	<center> <h1>Formulario de compra</h1>
+  
+  <form action="procesar_compra.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+    
+    <label for="direccion">Dirección de envío:</label>
+    <input type="text" id="direccion" name="direccion" required><br><br>
+    
+    <label for="producto">Producto:</label>
+    <select id="producto" name="producto">
+      <option value="producto1">Cuarzo de Corazon</option>
+      <option value="producto2">Lampara De Cuarzo</option>
+      <option value="producto3">Dije De Cuarzo Arcoiris</option>
+<option value="producto3">Pedazo De Cuarzo DE Amastista</option>
+<option value="producto3">Pedazo De Cuarzo De Aragonita</option>
+<option value="producto3">Collar De Cuarzo Azul</option>
+<option value="producto3">Pedazo De Cuarzo Celestita</option>
+<option value="producto3">Cuarzo En Forma De Craneo</option>
+<option value="producto3">Pulsera Troyana</option>
+    </select><br><br>
+    
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" required><br><br>
+    <li><a href="Fin.html" class="button large fit">Comprar</a></li>
+  </form> </center>
+</div>
+</body>
+</html>
